@@ -1,0 +1,22 @@
+.header-container {
+    background-color: #333; /* Adjust background color as needed */
+    color: #fff; /* Text color */
+    padding: 16px; /* Add padding to give some space around the header */
+  }
+  
+  .product-container {
+    margin-top: 60px; /* Add margin to push the product list below the header */
+  }
+
+  /* styles.css or your CSS file */
+.product-card {
+    width: 200px; /* Set a fixed width for each product card */
+    margin: 25px; /* Add margin to create spacing between product cards */
+  }
+
+  .ui.four.column.grid > .column {
+    flex: 0 0 calc(25% - 10px); /* Calculate the width for exactly 4 columns with spacing */
+  }
+  
+  
+  
